@@ -1,0 +1,5 @@
+.idea/
+/temp/
+/badger/temp-badger/
+/bbolt/temp-bolt.db
+/leveldb/temp-leveldb/
