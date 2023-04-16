@@ -8,8 +8,8 @@ This repository contains benchmarks for the next key-value databases:
 
 I compared them by the following metrics:
 
-- **Read speed** (duration per second)
-- **Write speed** (duration per second)
+- **Read speed** (duration per operation)
+- **Write speed** (duration per operation)
 - **Size after filling** for 100, 1000, 10_000, 100_000 elems with value size 10, 100, 1000 bytes
 - **Size after filling and deleting each 10 elems** for the same data as above
 
