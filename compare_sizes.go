@@ -5,6 +5,7 @@ import (
 	"github.com/VyacheArt/compare-key-value-db-go/badger"
 	"github.com/VyacheArt/compare-key-value-db-go/bbolt"
 	"github.com/VyacheArt/compare-key-value-db-go/leveldb"
+	"github.com/VyacheArt/compare-key-value-db-go/redis"
 	"github.com/VyacheArt/compare-key-value-db-go/util"
 	"github.com/fatih/color"
 )
@@ -37,6 +38,9 @@ func main() {
 
 		//run comparing for badger
 		runComparing("badger", valueSet, badger.ResetAndFill, badger.DeleteEveryNth, badger.GetFilesystemSizeBytes)
+
+		//run comparing for redis
+		runComparing("redis", valueSet, redis.ResetAndFill, redis.DeleteEveryNth, redis.GetUsedMemoryBytes)
 	}
 }
 

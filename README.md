@@ -18,6 +18,8 @@ I compared them by the following metrics:
 You can read them at
 the [Google Sheet](https://docs.google.com/spreadsheets/d/11gZrCdfpd4cZcnuycVIDFFNy2jvtoDCJP6TG-O77xzc/edit?usp=sharing).
 
+You can watch the video [here](https://youtu.be/HGUSMFvFxoA).
+
 ## Contact
 
 Feel free to contact me if you have any questions or suggestions.
